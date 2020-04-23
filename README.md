@@ -58,7 +58,7 @@ Imagine you are looking for a book in a library with a Dewey Decimal index. How 
 
 ### 5. Implement different tree traversals  
 
-> [different-traversals.js](../master/drills/different-traversals.js)  
+  > [different-traversals.js](../master/drills/different-traversals.js)  
 
 Using your BinarySearchTree class from your previous lesson, create a binary search tree with the following dataset:  
 
@@ -76,6 +76,8 @@ Post-order:
 `4, 12, 10, 22, 18, 24, 15, 31, 44, 35, 66, 90, 70, 50, 25`  
 
 ### 6. Find the next commanding officer  
+
+  > [commanding-officer.js](../master/drills/commanding-officer.js)  
 
 Suppose you have a tree representing a command structure of the Starship USS Enterprise.  
 
