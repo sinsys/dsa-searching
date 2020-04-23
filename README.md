@@ -109,8 +109,13 @@ This tree is meant to represent who is in charge of lower-ranking officers. For 
 
 ### 7. Max profit  
 
+  > [max-profit.js](../master/drills/max-profit.js)  
+
 The share price for a company over a week's trading is as follows:  
 `[128, 97, 121, 123, 98, 97, 105]`.  
+
+  > $26 - Buy @ $97 and sell at $123  
+  
 If you had to buy shares in the company on a particular day, and sell the shares on a subsequent day, write an algorithm to work out what the maximum profit you could make would be.
 
 ### 8. Egg drop (optional)  
