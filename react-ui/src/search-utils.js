@@ -48,8 +48,8 @@ let searchFuncs = {
         return recursiveSearch(array, value, start, index - 1);
       }
     }
-
-    return recursiveSearch(this.arr.sort(), val);
+    let sortedArr = this.arr.map(i => i).sort((a,b) => a - b);
+    return recursiveSearch(sortedArr, val);
   }
 
 };
