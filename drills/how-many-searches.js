@@ -41,3 +41,4 @@ console.log(`Searched ${counter} times for 8`);
 counter = 0;
 binarySearch(arr, 16);
 console.log(`Searched ${counter} times for 16`);
+
