@@ -93,6 +93,18 @@ Lieutenant                  Lieutenant
 security-officer            Selar
 ```  
 
+  > Result:
+  ```javascript
+  * 'Cpt Picard',
+  * 'Cpt Riker',
+  * 'Cmdr Data',
+  * 'Lt Cmdr Worf',
+  * 'Lt Cmdr LaForge',
+  * 'Lt Cmdr Crusher',
+  * 'Lt Security Officer',
+  * 'Lt Selar'  
+  ```  
+
 This tree is meant to represent who is in charge of lower-ranking officers. For example, Commander Riker is directly responsible for Worf and LaForge. People of the same rank are at the same level in the tree. However, to distinguish between people of the same rank, those with more experience are on the left and those with less on the right (i.e., experience decreases from left to right). Suppose a fierce battle with an enemy ensues. Write a program that will take this tree of commanding officers and outlines the ranking officers in their ranking order so that if officers start dropping like flies, we know who is the next person to take over command.
 
 ### 7. Max profit  
