@@ -36,7 +36,7 @@ Use the same front end and the dataset from the previous exercise for this exerc
 
 ### 3. Find a book  
 
-  > `./drills/find-book.js`  
+  > [find-book.js](../master/drills/find-book.js)  
   
 Imagine you are looking for a book in a library with a Dewey Decimal index. How would you go about it? Can you express this process as a search algorithm? Implement your algorithm to find a book whose Dewey and book title is provided.
 
@@ -46,7 +46,7 @@ Imagine you are looking for a book in a library with a Dewey Decimal index. How 
 
 ** No coding is needed for these drills**. Once you have answered it, you can then code the tree and implement the traversal to see if your answer is correct.
 
-  > `./drills/search-bst.js`  
+  > [search-bst.js](../master/drills/search-bst.js)  
   
  - 1) Given a binary search tree whose in-order and pre-order traversals are respectively `14 15 19 25 27 35 79 89 90 91 and 35 25 15 14 19 27 89 79 91 90`. What would be its postorder traversal?
 
@@ -58,8 +58,12 @@ Imagine you are looking for a book in a library with a Dewey Decimal index. How 
 
 ### 5. Implement different tree traversals  
 
+> [different-traversals.js](../master/drills/different-traversals.js)  
+
 Using your BinarySearchTree class from your previous lesson, create a binary search tree with the following dataset:  
-`25 15 50 10 24 35 70 4 12 18 31 44 66 90 22`.  
+
+`25 15 50 10 24 35 70 4 12 18 31 44 66 90 22`  
+
 Then implement `inOrder()`, `preOrder()`, and `postOrder()` functions. Test your functions with the following datasets.
 
 A pre-order traversal should give you the following order:  
